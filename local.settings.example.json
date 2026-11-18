@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobs.WeeklyApRejectionReport.Disabled": "true",
+    "REPORT_SCHEDULE": "0 0 8 * * 1",
+    "AP_INBOXES": "ap@example.com,ap-uk@example.com",
+    "REPORT_SENDER": "ap-reports@example.com",
+    "REPORT_RECIPIENTS": "finance-ops@example.com",
+    "REPORT_STATUSES": "failed",
+    "REPORT_INCLUDE_SUBJECT": "false",
+    "REPORT_SEND_ENABLED": "false"
+  }
+}
